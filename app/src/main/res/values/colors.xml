@@ -3,6 +3,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorwhite">#FFFFFF</color>
     <!-- color untuk gradient background -->
     <color name="startblue">#4EF39D</color>
     <color name="endblue">#57C2FF</color>

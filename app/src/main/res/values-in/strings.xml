@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tugas_layout_profile</string>
+    <string name="action_setting">Pengaturan</string>
+    <string name="key_setting_locale">setting_locale</string>
+    <string name="action_setting_language">Bahasa</string>
+    <string name="label_setting_locale_summary">Ubah Pengaturan Bahasa Perangkat</string>
+    <string name="label_setting_locale_title">Pengaturan Bahasa</string>
+    <string name="rating">Penilaian</string>
+    <string name="project">Projek</string>
+    <string name="social_media">Sosial Media</string>
+</resources>

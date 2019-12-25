@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:gravity="fill"
+        android:title="@string/action_setting_language"
+        app:iconSpaceReserved="false">
+        <Preference
+            android:gravity="fill"
+            android:key="@string/key_setting_locale"
+            android:summary="@string/label_setting_locale_summary"
+            android:title="@string/label_setting_locale_title"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

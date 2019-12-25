@@ -1,3 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">tugas_layout_profile</string>
+    <string name="action_setting">Setting</string>
+    <string name="key_setting_locale">setting_locale</string>
+    <string name="action_setting_language">Language</string>
+    <string name="label_setting_locale_summary">Change device language</string>
+    <string name="label_setting_locale_title">Change language</string>
+    <string name="rating">Rating</string>
+    <string name="project">Project</string>
+    <string name="social_media">Social Media</string>
 </resources>

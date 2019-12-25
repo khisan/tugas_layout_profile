@@ -5,217 +5,223 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:background="@color/bgutama">
 
-   <View
-       android:layout_width="match_parent"
-       android:layout_height="210dp"
-       android:background="@drawable/gradient_background"/>
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="210dp"
+           android:background="@drawable/gradient_background"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp">
-
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp">
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <ImageView
+                android:id="@+id/ivSetting"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                app:srcCompat="@drawable/ic_settings" />
 
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:src="@drawable/prof_pic"
-                android:layout_centerHorizontal="true"
-                android:elevation="1dp"
-                app:civ_border_width="3px"
-                app:civ_border_color="@color/endblue">
-            </de.hdodenhof.circleimageview.CircleImageView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="85dp"
-                        app:contentPaddingTop="15dp"
-                        app:contentPaddingRight="15dp"
-                        app:contentPaddingLeft="15dp"
-                        app:contentPaddingBottom="15dp"
-                        app:cardCornerRadius="10dp">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Khisan Ihza W.R"
-                                android:textStyle="bold"
-                                android:textSize="25sp"
-                                android:layout_marginTop="60dp"
-                                android:layout_gravity="center">
-                            </TextView>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="1718006"
-                                android:textSize="17sp"
-                                android:layout_marginTop="5dp"
-                                android:layout_gravity="center">
-                            </TextView>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua."
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                android:layout_marginTop="10dp"
-                                android:textAlignment="center"
-                                android:layout_gravity="center_horizontal">
-                            </TextView>
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Purwodadi, Pasuruan"
-                                android:textSize="18sp"
-                                android:layout_marginTop="10dp"
-                                android:textStyle="bold"
-                                android:layout_gravity="center">
-                            </TextView>
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginTop="40dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/prof_pic"
+                    android:layout_centerHorizontal="true"
+                    android:elevation="1dp"
+                    app:civ_border_width="3px"
+                    app:civ_border_color="@color/endblue">
+                </de.hdodenhof.circleimageview.CircleImageView>
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_gravity="center"
-                        android:weightSum="2">
+                        android:layout_marginTop="190px"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            app:contentPaddingTop="15dp"
+                            app:contentPaddingRight="15dp"
+                            app:contentPaddingLeft="15dp"
+                            app:contentPaddingBottom="15dp"
+                            app:cardCornerRadius="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Khisan Ihza W.R"
+                                    android:textStyle="bold"
+                                    android:textSize="25sp"
+                                    android:layout_marginTop="70dp"
+                                    android:layout_gravity="center">
+                                </TextView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="1718006"
+                                    android:textSize="17sp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_gravity="center">
+                                </TextView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua."
+                                    android:textSize="15sp"
+                                    android:textStyle="italic"
+                                    android:layout_marginTop="10dp"
+                                    android:textAlignment="center"
+                                    android:layout_gravity="center_horizontal">
+                                </TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Purwodadi, Pasuruan"
+                                    android:textSize="18sp"
+                                    android:layout_marginTop="10dp"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="center">
+                                </TextView>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
 
                         <LinearLayout
-
-                            android:layout_width="62sp"
-                            android:paddingTop="20dp"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical"
+                            android:layout_marginTop="50px"
+                            android:orientation="horizontal"
                             android:layout_gravity="center"
-                            android:layout_weight="1">
+                            android:weightSum="2">
 
-                            <TextView
-                                android:layout_width="wrap_content"
+                            <LinearLayout
+                                android:layout_width="62sp"
+                                android:paddingTop="20dp"
                                 android:layout_height="wrap_content"
+                                android:orientation="vertical"
                                 android:layout_gravity="center"
-                                android:text="0"
-                                android:textStyle="bold"
-                                android:textSize="35sp"/>
+                                android:layout_weight="1">
 
-                            <TextView
-                                android:layout_width="wrap_content"
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="0"
+                                    android:textStyle="bold"
+                                    android:textSize="35sp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="@string/rating"
+                                    android:textSize="20sp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+
+                                android:layout_width="62sp"
+                                android:paddingTop="20dp"
                                 android:layout_height="wrap_content"
+                                android:orientation="vertical"
                                 android:layout_gravity="center"
-                                android:text="Rating"
-                                android:textSize="20sp"/>
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="0"
+                                    android:textStyle="bold"
+                                    android:textSize="35sp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="@string/project"
+                                    android:textSize="20sp"/>
+
+                            </LinearLayout>
 
                         </LinearLayout>
-
-                        <LinearLayout
-
-                            android:layout_width="62sp"
-                            android:paddingTop="20dp"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center"
-                            android:layout_weight="1">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:text="0"
-                                android:textStyle="bold"
-                                android:textSize="35sp"/>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:text="Projects"
-                                android:textSize="20sp"/>
-
-                        </LinearLayout>
-
                     </LinearLayout>
-                </LinearLayout>
-        </RelativeLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <androidx.cardview.widget.CardView
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="480dp"
-            app:contentPaddingTop="15dp"
-            app:contentPaddingRight="15dp"
-            app:contentPaddingLeft="15dp"
-            app:contentPaddingBottom="15dp"
-            app:cardCornerRadius="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Social Media"
-                android:textSize="18sp"
-                android:textStyle="bold|italic"
-                android:layout_gravity="center_horizontal">
-            </TextView>
-
-            <LinearLayout
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:weightSum="3"
-                android:orientation="horizontal">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="600dp"
+                app:contentPaddingTop="15dp"
+                app:contentPaddingRight="15dp"
+                app:contentPaddingLeft="15dp"
+                app:contentPaddingBottom="15dp">
 
-                <ImageView
-                    android:layout_marginTop="30dp"
-                    android:layout_width="match_parent"
+                <TextView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/ic_ig">
-                </ImageView>
+                    android:text="@string/social_media"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="center_horizontal">
+                </TextView>
 
-                <ImageView
-                    android:layout_marginTop="30dp"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/ic_github">
-                </ImageView>
+                    android:layout_height="match_parent"
+                    android:weightSum="3"
+                    android:orientation="horizontal">
 
-                <ImageView
-                    android:layout_marginTop="30dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/ic_fb">
-                </ImageView>
+                    <ImageView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_ig">
+                    </ImageView>
 
-            </LinearLayout>
+                    <ImageView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_github">
+                    </ImageView>
 
-
-        </androidx.cardview.widget.CardView>
-    </LinearLayout>
+                    <ImageView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_fb">
+                    </ImageView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
 
     </RelativeLayout>
